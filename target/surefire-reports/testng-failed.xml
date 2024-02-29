@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke Test two(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Smoke Test two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.DisplayBookshelves">
+        <methods>
+          <include name="waitForGiftCardVisibility"/>
+        </methods>
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </classes>
+  </test> <!-- Smoke Test two(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="153" total="204" passed="51" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T10:23:15 IST" name="Suite" finished-at="2024-02-29T10:24:01 IST" duration-ms="46536">
+    <groups>
+      <group name="Smoke Test two">
+        <method signature="DisplayBookshelves.clearrecipientmail()[pri:37, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="clearrecipientmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickConfirmWithcorrectEmail()[pri:39, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="clickConfirmWithcorrectEmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnBirthdayOrAnniversary()[pri:22, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="clickOnBirthdayOrAnniversary" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnConfirm()[pri:34, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="clickOnConfirm" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnGiftCard()[pri:21, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="clickOnGiftCard" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnNext()[pri:24, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="clickOnNext" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmDetailsPage()[pri:40, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="confirmDetailsPage" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.displayErrorMessage()[pri:36, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="displayErrorMessage" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterAddressofCustomer()[pri:31, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterAddressofCustomer" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterCorrectDeatils()[pri:38, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterCorrectDeatils" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterCustomerEmail()[pri:29, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterCustomerEmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterCustomerMobileNumber()[pri:30, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterCustomerMobileNumber" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterCustomerName()[pri:28, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterCustomerName" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterMessage()[pri:33, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterMessage" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterPinofCustomerPin()[pri:32, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterPinofCustomerPin" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterRecipientEmail()[pri:26, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterRecipientEmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterRecipientMobile()[pri:27, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterRecipientMobile" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterRecipientName()[pri:25, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enterRecipientName" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enteringAmount()[pri:23, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="enteringAmount" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.screenShotOfErrorMessage()[pri:35, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="screenShotOfErrorMessage" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.screenShotOfconfirmationPage()[pri:41, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="screenShotOfconfirmationPage" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.waitForGiftCardVisibility()[pri:20, instance:testScenarios.DisplayBookshelves@2d901eb0]" name="waitForGiftCardVisibility" class="testScenarios.DisplayBookshelves"/>
+      </group> <!-- Smoke Test two -->
+      <group name="Regression Test two">
+        <method signature="DisplayBookshelves.confirmamountEnetered()[pri:42, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmamountEnetered" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmcustomerCity()[pri:49, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmcustomerCity" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmcustomerEmail()[pri:47, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmcustomerEmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmcustomerMobile()[pri:48, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmcustomerMobile" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmcustomerName()[pri:46, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmcustomerName" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmcustomerPinCode()[pri:50, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmcustomerPinCode" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmrecipientEmail()[pri:44, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmrecipientEmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmrecipientMobile()[pri:45, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmrecipientMobile" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.confirmrecipientName()[pri:43, instance:testScenarios.DisplayBookshelves@5afa3c9]" name="confirmrecipientName" class="testScenarios.DisplayBookshelves"/>
+      </group> <!-- Regression Test two -->
+      <group name="Smoke Test one">
+        <method signature="DisplayBookshelves.clickSearch()[pri:2, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="clickSearch" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.collectingBookShelvesList()[pri:11, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="collectingBookShelvesList" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.displayingBookShelves()[pri:12, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="displayingBookShelves" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.hoverCategory()[pri:5, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="hoverCategory" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.hoverPrice()[pri:7, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="hoverPrice" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.hoverSort()[pri:9, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="hoverSort" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.inStockSelction()[pri:10, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="inStockSelction" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.inputBox()[pri:1, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="inputBox" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.popupclose()[pri:3, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="popupclose" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.screenShotOfBookShelves()[pri:13, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="screenShotOfBookShelves" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.scroll()[pri:4, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="scroll" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.selectCategory()[pri:6, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="selectCategory" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.slidePrice()[pri:8, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="slidePrice" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.testCaseReadJSON()[pri:0, instance:testScenarios.DisplayBookshelves@1ed6388a]" name="testCaseReadJSON" class="testScenarios.DisplayBookshelves"/>
+      </group> <!-- Smoke Test one -->
+      <group name="Regression Test one">
+        <method signature="DisplayBookshelves.displaySubMenuSeatingandChair()[pri:18, instance:testScenarios.DisplayBookshelves@7f485fda]" name="displaySubMenuSeatingandChair" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.hoverLiving()[pri:15, instance:testScenarios.DisplayBookshelves@7f485fda]" name="hoverLiving" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.listOFseatingAndChairExcel()[pri:17, instance:testScenarios.DisplayBookshelves@7f485fda]" name="listOFseatingAndChairExcel" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.screenShotOfByAtLiving()[pri:19, instance:testScenarios.DisplayBookshelves@7f485fda]" name="screenShotOfByAtLiving" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.scrollUp()[pri:14, instance:testScenarios.DisplayBookshelves@7f485fda]" name="scrollUp" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.waitForSubmenuToAppear()[pri:16, instance:testScenarios.DisplayBookshelves@7f485fda]" name="waitForSubmenuToAppear" class="testScenarios.DisplayBookshelves"/>
+      </group> <!-- Regression Test one -->
+    </groups>
+    <test started-at="2024-02-29T10:23:15 IST" name="Smoke Test one" finished-at="2024-02-29T10:23:48 IST" duration-ms="33206">
+      <class name="testScenarios.DisplayBookshelves">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:15 IST" name="driverConfig" finished-at="2024-02-29T10:23:27 IST" duration-ms="12189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="testCaseReadJSON()[pri:0, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:27 IST" name="testCaseReadJSON" finished-at="2024-02-29T10:23:27 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReadJSON -->
+        <test-method signature="inputBox()[pri:1, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:27 IST" name="inputBox" finished-at="2024-02-29T10:23:28 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputBox -->
+        <test-method signature="clickSearch()[pri:2, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:28 IST" name="clickSearch" finished-at="2024-02-29T10:23:30 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method signature="popupclose()[pri:3, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:30 IST" name="popupclose" finished-at="2024-02-29T10:23:33 IST" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupclose -->
+        <test-method signature="scroll()[pri:4, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:33 IST" name="scroll" finished-at="2024-02-29T10:23:33 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method signature="hoverCategory()[pri:5, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:33 IST" name="hoverCategory" finished-at="2024-02-29T10:23:33 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverCategory -->
+        <test-method signature="selectCategory()[pri:6, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:33 IST" name="selectCategory" finished-at="2024-02-29T10:23:34 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method signature="hoverPrice()[pri:7, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:34 IST" name="hoverPrice" finished-at="2024-02-29T10:23:34 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverPrice -->
+        <test-method signature="slidePrice()[pri:8, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:34 IST" name="slidePrice" finished-at="2024-02-29T10:23:42 IST" duration-ms="8758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slidePrice -->
+        <test-method signature="hoverSort()[pri:9, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:42 IST" name="hoverSort" finished-at="2024-02-29T10:23:43 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverSort -->
+        <test-method signature="inStockSelction()[pri:10, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:43 IST" name="inStockSelction" finished-at="2024-02-29T10:23:43 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inStockSelction -->
+        <test-method signature="collectingBookShelvesList()[pri:11, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:43 IST" name="collectingBookShelvesList" finished-at="2024-02-29T10:23:48 IST" duration-ms="4852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectingBookShelvesList -->
+        <test-method signature="displayingBookShelves()[pri:12, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:48 IST" name="displayingBookShelves" finished-at="2024-02-29T10:23:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayingBookShelves -->
+        <test-method signature="screenShotOfBookShelves()[pri:13, instance:testScenarios.DisplayBookshelves@1ed6388a]" started-at="2024-02-29T10:23:48 IST" name="screenShotOfBookShelves" finished-at="2024-02-29T10:23:48 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOfBookShelves -->
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </test> <!-- Smoke Test one -->
+    <test started-at="2024-02-29T10:23:48 IST" name="Regression Test one" finished-at="2024-02-29T10:23:51 IST" duration-ms="2338">
+      <class name="testScenarios.DisplayBookshelves">
+        <test-method signature="scrollUp()[pri:14, instance:testScenarios.DisplayBookshelves@7f485fda]" started-at="2024-02-29T10:23:48 IST" name="scrollUp" finished-at="2024-02-29T10:23:48 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUp -->
+        <test-method signature="hoverLiving()[pri:15, instance:testScenarios.DisplayBookshelves@7f485fda]" started-at="2024-02-29T10:23:48 IST" name="hoverLiving" finished-at="2024-02-29T10:23:48 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverLiving -->
+        <test-method signature="waitForSubmenuToAppear()[pri:16, instance:testScenarios.DisplayBookshelves@7f485fda]" started-at="2024-02-29T10:23:48 IST" name="waitForSubmenuToAppear" finished-at="2024-02-29T10:23:49 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForSubmenuToAppear -->
+        <test-method signature="listOFseatingAndChairExcel()[pri:17, instance:testScenarios.DisplayBookshelves@7f485fda]" started-at="2024-02-29T10:23:49 IST" name="listOFseatingAndChairExcel" finished-at="2024-02-29T10:23:50 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOFseatingAndChairExcel -->
+        <test-method signature="displaySubMenuSeatingandChair()[pri:18, instance:testScenarios.DisplayBookshelves@7f485fda]" started-at="2024-02-29T10:23:50 IST" name="displaySubMenuSeatingandChair" finished-at="2024-02-29T10:23:50 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySubMenuSeatingandChair -->
+        <test-method signature="screenShotOfByAtLiving()[pri:19, instance:testScenarios.DisplayBookshelves@7f485fda]" started-at="2024-02-29T10:23:50 IST" name="screenShotOfByAtLiving" finished-at="2024-02-29T10:23:51 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOfByAtLiving -->
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </test> <!-- Regression Test one -->
+    <test started-at="2024-02-29T10:23:51 IST" name="Smoke Test two" finished-at="2024-02-29T10:23:59 IST" duration-ms="8731">
+      <class name="testScenarios.DisplayBookshelves">
+        <test-method signature="waitForGiftCardVisibility()[pri:20, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:51 IST" name="waitForGiftCardVisibility" finished-at="2024-02-29T10:23:51 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForGiftCardVisibility -->
+        <test-method signature="clickOnGiftCard()[pri:21, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:51 IST" name="clickOnGiftCard" finished-at="2024-02-29T10:23:56 IST" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGiftCard -->
+        <test-method signature="clickOnBirthdayOrAnniversary()[pri:22, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:56 IST" name="clickOnBirthdayOrAnniversary" finished-at="2024-02-29T10:23:56 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBirthdayOrAnniversary -->
+        <test-method signature="enteringAmount()[pri:23, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:56 IST" name="enteringAmount" finished-at="2024-02-29T10:23:56 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringAmount -->
+        <test-method signature="clickOnNext()[pri:24, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:56 IST" name="clickOnNext" finished-at="2024-02-29T10:23:56 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNext -->
+        <test-method signature="enterRecipientName()[pri:25, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:56 IST" name="enterRecipientName" finished-at="2024-02-29T10:23:57 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRecipientName -->
+        <test-method signature="enterRecipientEmail()[pri:26, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:57 IST" name="enterRecipientEmail" finished-at="2024-02-29T10:23:57 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRecipientEmail -->
+        <test-method signature="enterRecipientMobile()[pri:27, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:57 IST" name="enterRecipientMobile" finished-at="2024-02-29T10:23:57 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRecipientMobile -->
+        <test-method signature="enterCustomerName()[pri:28, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:57 IST" name="enterCustomerName" finished-at="2024-02-29T10:23:57 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerName -->
+        <test-method signature="enterCustomerEmail()[pri:29, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:57 IST" name="enterCustomerEmail" finished-at="2024-02-29T10:23:57 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerEmail -->
+        <test-method signature="enterCustomerMobileNumber()[pri:30, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:57 IST" name="enterCustomerMobileNumber" finished-at="2024-02-29T10:23:57 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerMobileNumber -->
+        <test-method signature="enterAddressofCustomer()[pri:31, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:57 IST" name="enterAddressofCustomer" finished-at="2024-02-29T10:23:57 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressofCustomer -->
+        <test-method signature="enterPinofCustomerPin()[pri:32, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:57 IST" name="enterPinofCustomerPin" finished-at="2024-02-29T10:23:58 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPinofCustomerPin -->
+        <test-method signature="enterMessage()[pri:33, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="enterMessage" finished-at="2024-02-29T10:23:58 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMessage -->
+        <test-method signature="clickOnConfirm()[pri:34, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="clickOnConfirm" finished-at="2024-02-29T10:23:58 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConfirm -->
+        <test-method signature="screenShotOfErrorMessage()[pri:35, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="screenShotOfErrorMessage" finished-at="2024-02-29T10:23:58 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOfErrorMessage -->
+        <test-method signature="displayErrorMessage()[pri:36, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="displayErrorMessage" finished-at="2024-02-29T10:23:58 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayErrorMessage -->
+        <test-method signature="clearrecipientmail()[pri:37, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="clearrecipientmail" finished-at="2024-02-29T10:23:58 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearrecipientmail -->
+        <test-method signature="enterCorrectDeatils()[pri:38, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="enterCorrectDeatils" finished-at="2024-02-29T10:23:58 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCorrectDeatils -->
+        <test-method signature="clickConfirmWithcorrectEmail()[pri:39, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="clickConfirmWithcorrectEmail" finished-at="2024-02-29T10:23:58 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickConfirmWithcorrectEmail -->
+        <test-method signature="confirmDetailsPage()[pri:40, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:58 IST" name="confirmDetailsPage" finished-at="2024-02-29T10:23:59 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmDetailsPage -->
+        <test-method signature="screenShotOfconfirmationPage()[pri:41, instance:testScenarios.DisplayBookshelves@2d901eb0]" started-at="2024-02-29T10:23:59 IST" name="screenShotOfconfirmationPage" finished-at="2024-02-29T10:23:59 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOfconfirmationPage -->
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </test> <!-- Smoke Test two -->
+    <test started-at="2024-02-29T10:23:59 IST" name="Regression Test two" finished-at="2024-02-29T10:24:01 IST" duration-ms="2195">
+      <class name="testScenarios.DisplayBookshelves">
+        <test-method signature="confirmamountEnetered()[pri:42, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:23:59 IST" name="confirmamountEnetered" finished-at="2024-02-29T10:23:59 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmamountEnetered -->
+        <test-method signature="confirmrecipientName()[pri:43, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:23:59 IST" name="confirmrecipientName" finished-at="2024-02-29T10:23:59 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmrecipientName -->
+        <test-method signature="confirmrecipientEmail()[pri:44, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:23:59 IST" name="confirmrecipientEmail" finished-at="2024-02-29T10:23:59 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmrecipientEmail -->
+        <test-method signature="confirmrecipientMobile()[pri:45, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:23:59 IST" name="confirmrecipientMobile" finished-at="2024-02-29T10:23:59 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmrecipientMobile -->
+        <test-method signature="confirmcustomerName()[pri:46, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:23:59 IST" name="confirmcustomerName" finished-at="2024-02-29T10:24:00 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerName -->
+        <test-method signature="confirmcustomerEmail()[pri:47, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:24:00 IST" name="confirmcustomerEmail" finished-at="2024-02-29T10:24:00 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerEmail -->
+        <test-method signature="confirmcustomerMobile()[pri:48, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:24:00 IST" name="confirmcustomerMobile" finished-at="2024-02-29T10:24:00 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerMobile -->
+        <test-method signature="confirmcustomerCity()[pri:49, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:24:00 IST" name="confirmcustomerCity" finished-at="2024-02-29T10:24:00 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerCity -->
+        <test-method signature="confirmcustomerPinCode()[pri:50, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:24:00 IST" name="confirmcustomerPinCode" finished-at="2024-02-29T10:24:00 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerPinCode -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testScenarios.DisplayBookshelves@5afa3c9]" started-at="2024-02-29T10:24:00 IST" name="closingBrowser" finished-at="2024-02-29T10:24:01 IST" duration-ms="1753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </test> <!-- Regression Test two -->
+  </suite> <!-- Suite -->
+</testng-results>

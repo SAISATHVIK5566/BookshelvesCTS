@@ -1,0 +1,15 @@
+{  
+
+	"Amount":"10000",
+	"Recipient_Name":"Sai Sathvik",
+	"Recipient_Email":"saisathvik",
+	"Recipient_Mobile":"9876543210",
+	"Customer_Name":"Vinay",
+	"Customer_Email":"saisathvik@gmail.com",
+	"Customer_Mobile":"9876543210",
+	"Customer_Address":"Jagtial",
+	"Customer_PinCode":"500010",
+	"Message":"Happy BirthDay",
+	"Correct_email":"saisathvik@gmail.com"
+
+}
