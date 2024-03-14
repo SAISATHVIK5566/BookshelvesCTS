@@ -39,7 +39,7 @@ public class HomePageByAtLiving {
 	
 	public static WebElement txtSeatingChair(WebDriver driver) {
 		
-		element = driver.findElement(By.xpath("//li[@class='topnav_item livingunit']//a[contains(text(),'Seating & Chairs')]"));
+		element = driver.findElement(By.xpath("//li[@class='topnav_item livingunit']//a[contains(text(),'Chair')]"));
 		return element;
 		
 	}

@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Test one(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.DisplayBookshelves">
+        <methods>
+          <include name="slidePrice"/>
+          <include name="selectCategory"/>
+          <include name="popupclose"/>
+          <include name="inputBox"/>
+          <include name="screenShotOfBookShelves"/>
+          <include name="testCaseReadJSON"/>
+          <include name="displayingBookShelves"/>
+          <include name="scroll"/>
+          <include name="hoverPrice"/>
+          <include name="collectingBookShelvesList"/>
+          <include name="inStockSelction"/>
+          <include name="hoverSort"/>
+          <include name="hoverCategory"/>
+          <include name="clickSearch"/>
+        </methods>
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </classes>
+  </test> <!-- Smoke Test one(failed) -->
+  <test thread-count="5" name="Regression Test one(failed)">
+    <groups>
+      <run>
+        <include name="Regression Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.DisplayBookshelves">
+        <methods>
+          <include name="displaySubMenuSeatingandChair"/>
+          <include name="hoverLiving"/>
+          <include name="scrollUp"/>
+          <include name="listOFseatingAndChairExcel"/>
+          <include name="waitForSubmenuToAppear"/>
+        </methods>
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </classes>
+  </test> <!-- Regression Test one(failed) -->
+  <test thread-count="5" name="Smoke Test two(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.DisplayBookshelves">
+        <methods>
+          <include name="enterMessage"/>
+          <include name="enterRecipientMobile"/>
+          <include name="enterCustomerEmail"/>
+          <include name="enteringAmount"/>
+          <include name="clickConfirmWithcorrectEmail"/>
+          <include name="clickOnConfirm"/>
+          <include name="enterCustomerMobileNumber"/>
+          <include name="enterCorrectDeatils"/>
+          <include name="clickOnBirthdayOrAnniversary"/>
+          <include name="enterPinofCustomerPin"/>
+          <include name="displayErrorMessage"/>
+          <include name="clickOnNext"/>
+          <include name="enterCustomerName"/>
+          <include name="clickOnGiftCard"/>
+          <include name="confirmDetailsPage"/>
+          <include name="waitForGiftCardVisibility"/>
+          <include name="clearrecipientmail"/>
+          <include name="enterRecipientEmail"/>
+          <include name="enterAddressofCustomer"/>
+          <include name="enterRecipientName"/>
+        </methods>
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </classes>
+  </test> <!-- Smoke Test two(failed) -->
   <test thread-count="5" name="Regression Test two(failed)">
     <groups>
       <run>
